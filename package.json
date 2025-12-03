@@ -1,0 +1,20 @@
+{
+  "name": "test-theme",
+  "version": "1.0.0",
+  "description": "Theme with UNOCSS",
+  "homepage": "https://github.com/kishor-aracreate/arm-test-theme#readme",
+  "bugs": {
+    "url": "https://github.com/kishor-aracreate/arm-test-theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kishor-aracreate/arm-test-theme.git"
+  },
+  "license": "ISC",
+  "author": "kishor",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
