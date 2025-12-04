@@ -16,5 +16,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@unocss/preset-attributify": "^66.5.10",
+    "@unocss/preset-wind4": "^66.5.10"
   }
 }

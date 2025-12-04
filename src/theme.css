@@ -1,0 +1,290 @@
+@import "react-toastify/dist/ReactToastify.css";
+
+
+
+/* Critical fonts loaded first */
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Less critical font weights */
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Apply Poppins as default font */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --line-color: rgba(0, 0, 0, 0.08);
+  /* light mode grid lines */
+  --text: #333333;
+  /* dark text color */
+  --text-secondary: #666666;
+  /* secondary text color */
+  --bg: #ffffff;
+  /* light background color */
+  --button-bg: #F9BF3B;
+  /* light button background */
+  --button-hover-bg: #F9BF3B;
+  /* light button hover background */
+  --text-link: #F9BF3B;
+  /* link color */
+  --glass-bg: rgba(255, 255, 255, 0.3);
+  /* glass effect (light) */
+  --primary: #F9BF3B;
+  /* primary color */
+  --shadow-color: rgba(0, 0, 0, 0.25);
+  /* default */
+  --bg-auth-colour: #f7f7f7;
+  /* auth background color */
+  --auth-button-bg: #000;
+  --bg-input: #000;
+  --text-input: #000;
+}
+
+.dark {
+  --line-color: rgba(255, 255, 255, 0.08);
+  /* dark mode grid lines */
+  --text: #f5f5f5;
+  /* light text color */
+  --text-secondary: #aaaaaa;
+  /* secondary text color */
+  --bg: #0f0f0fff;
+  /* dark background color */
+  --button-bg: #F9BF3B;
+  /* dark button background */
+  --button-hover-bg: #F9BF3B;
+  /* dark button hover background */
+  --text-link: #ffffff;
+  /* link color */
+  --glass-bg: rgba(0, 0, 0, 0.4);
+  /* glass effect (dark) */
+  --primary: #F9BF3B;
+  /* primary color */
+  --shadow-color: rgb(187, 187, 187);
+  /* white glow in dark mode */
+  --bg-auth-colour: #000000;
+  /* auth background color */
+  --auth-button-bg: #ffffff;
+  --bg-input: #000000;
+  --text-input: #ffffff;
+}
+
+.light {
+  --line-color: rgba(0, 0, 0, 0.08);
+  /* light mode grid lines */
+  --text: #333333;
+  /* dark text color */
+  --text-secondary: #666666;
+  /* secondary text color */
+  --bg: #ffffff;
+  /* light background color */
+  --button-bg: #F9BF3B;
+  /* light button background */
+  --button-hover-bg: #F9BF3B;
+  /* light button hover background */
+  --text-link: #09080f;
+  /* link color */
+  --glass-bg: rgba(255, 255, 255, 0.3);
+  /* glass effect (light) */
+  --primary: #F9BF3B;
+  /* primary color */
+  --shadow-color: rgba(0, 0, 0, 0.25);
+  /* subtle black shadow */
+  --bg-auth-colour: #ffffff;
+  /* auth background color */
+  --auth-button-bg: #000;
+  --bg-input: #ffffff;
+  --text-input: #000000;
+}
+
+/*
+ Chart animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
